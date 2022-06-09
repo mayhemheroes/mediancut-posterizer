@@ -1,6 +1,6 @@
-project: rnshah9/mayhem-mediancut-posterizer
+project: mediancut-posterizer
 target: posterize
 
 cmds:
-  - cmd: /repo/posterize -Q 95 @@ out.png
+  - cmd: /repo/posterize -Q 95 /test.png /dev/null
     filepath: /test.png
