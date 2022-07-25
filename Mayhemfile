@@ -2,5 +2,4 @@ project: mediancut-posterizer
 target: posterize
 
 cmds:
-  - cmd: /repo/posterize -Q 95 /test.png /dev/null
-    filepath: /test.png
+  - cmd: /posterize -Q 95 @@ /dev/null
